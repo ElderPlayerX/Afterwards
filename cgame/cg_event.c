@@ -5,7 +5,7 @@
 #include "cg_local.h"
 
 // for the voice chats
-#include "../../ui/menudef.h"
+#include "../ui/menudef.h"
 
 //==========================================================================
 

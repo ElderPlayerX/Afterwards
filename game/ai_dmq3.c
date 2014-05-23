@@ -39,7 +39,7 @@
 #include "match.h"				//string matching types and vars
 
 // for the voice chats
-#include "../../ui/menudef.h"
+#include "../ui/menudef.h"
 
 // from aasfile.h
 #define AREACONTENTS_MOVER				1024

@@ -95,7 +95,19 @@ typedef enum {
 	// all gametypes before DM are team games
 	GT_DM,				// deathmatch
 
-	GT_MAX_GAME_TYPE
+	GT_MAX_GAME_TYPE,
+
+    // Kluge to solve badly mixed code...
+    GT_FFA,				// free for all
+    GT_TOURNAMENT,		// one on one tournament
+    GT_SINGLE_PLAYER,	// single player ffa
+    GT_TEAM,			// team deathmatch
+    GT_CTF,				// capture the flag
+    GT_1FCTF,
+    GT_OBELISK,
+    GT_HARVESTER
+    //...Kluge ends.
+
 } gametype_t;
 
 typedef enum { GENDER_MALE, GENDER_FEMALE, GENDER_NEUTER } gender_t;
@@ -671,7 +683,26 @@ typedef enum {
 
 	WP_BLAST,
 
-	WP_NUM_WEAPONS
+	WP_NUM_WEAPONS,
+
+    // Kluge to solve some badly mixed code...
+    WP_GAUNTLET,
+    WP_MACHINEGUN,
+    //WP_SHOTGUN,
+    //WP_GRENADE_LAUNCHER,
+    WP_ROCKET_LAUNCHER,
+    WP_LIGHTNING,
+    WP_RAILGUN,
+    WP_PLASMAGUN,
+    WP_BFG,
+    WP_GRAPPLING_HOOK,
+#ifdef MISSIONPACK
+    WP_NAILGUN,
+    WP_PROX_LAUNCHER,
+    WP_CHAINGUN,
+#endif
+    // ..Kluge ends.
+
 } weapon_t;
 
 typedef enum { 

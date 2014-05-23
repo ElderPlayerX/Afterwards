@@ -37,7 +37,7 @@
 #include "match.h"				//string matching types and vars
 
 // for the voice chats
-#include "../../ui/menudef.h"
+#include "../ui/menudef.h"
 
 #define TIME_BETWEENCHATTING	25
 

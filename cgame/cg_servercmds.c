@@ -5,7 +5,7 @@
 // be a valid snapshot this frame
 
 #include "cg_local.h"
-#include "../../ui/menudef.h"
+#include "../ui/menudef.h"
 
 typedef struct {
 	const char *order;

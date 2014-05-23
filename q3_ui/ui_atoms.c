@@ -175,7 +175,7 @@ void UI_LerpColor(vec4_t a, vec4_t b, vec4_t c, float t)
 UI_DrawProportionalString2
 =================
 */
-static int	propMap[128][3] = {
+/*static*/ int	propMap[128][3] = {
 {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1},
 {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1}, {0, 0, -1},
 
@@ -599,7 +599,7 @@ void UI_DrawProportionalString( int x, int y, const char* str, int style, vec4_t
 UI_DeleteColorCodes
 =================
 */
-static void UI_DeleteColorCodes( char* str )
+/*static*/ void UI_DeleteColorCodes( char* str )
 {
 	char* sFrom;
 	char* sTo;
