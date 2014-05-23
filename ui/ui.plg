@@ -1,0 +1,81 @@
+--------------------Konfiguration: ui - Win32 Debug TA--------------------
+Begining build with project "c:\quake3\code\ui\ui.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-Bit C/C++-Compiler für 80x86" with flags "/nologo /G5 /MTd /W3 /GX /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UI_EXPORTS" /D "MISSIONPACK" /FR"Debug_TA/" /Fp"Debug_TA/ui.pch" /YX /Fo"Debug_TA/" /Fd"Debug_TA/" /FD /ZI /GZ /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug_TA/ui.bsc" "
+			"COFF-Linker für 80x86" with flags "/nologo /base:"0x40000000" /dll /incremental:yes /pdb:"../Debug/ui.pdb" /map:"Debug_TA/uix86.map" /debug /machine:I386 /def:".\ui.def" /out:"../Debug_TA/uix86.dll" /implib:"Debug_TA/uix86.lib" /pdbtype:sept "
+			"Benutzerdefiniertes Erstellen" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP161.TMP" with contents </nologo /G5 /MTd /W3 /GX /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UI_EXPORTS" /D "MISSIONPACK" /FR"Debug_TA/" /Fp"Debug_TA/ui.pch" /YX /Fo"Debug_TA/" /Fd"Debug_TA/" /FD /ZI /GZ /c 
+"c:\quake3\code\game\bg_misc.c"
+"c:\quake3\code\game\q_math.c"
+"c:\quake3\code\game\q_shared.c"
+"c:\quake3\code\ui\ui_atoms.c"
+"c:\quake3\code\ui\ui_gameinfo.c"
+"c:\quake3\code\ui\ui_main.c"
+"c:\quake3\code\ui\ui_players.c"
+"c:\quake3\code\ui\ui_shared.c"
+"c:\quake3\code\ui\ui_syscalls.c"
+"c:\quake3\code\ui\ui_util.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP161.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP0162.TMP" with contents </nologo /base:"0x40000000" /dll /incremental:yes /pdb:"../Debug/ui.pdb" /map:"Debug_TA/uix86.map" /debug /machine:I386 /def:".\ui.def" /out:"../Debug_TA/uix86.dll" /implib:"Debug_TA/uix86.lib" /pdbtype:sept 
+.\Debug_TA\bg_misc.obj
+.\Debug_TA\q_math.obj
+.\Debug_TA\q_shared.obj
+.\Debug_TA\ui_atoms.obj
+.\Debug_TA\ui_gameinfo.obj
+.\Debug_TA\ui_main.obj
+.\Debug_TA\ui_players.obj
+.\Debug_TA\ui_shared.obj
+.\Debug_TA\ui_syscalls.obj
+.\Debug_TA\ui_util.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0162.TMP" 
+Kompilierung läuft...
+Befehlszeilenwarnung D4002 : Unbekannte Option '/ZI' wird ignoriert
+Befehlszeilenwarnung D4002 : Unbekannte Option '/GZ' wird ignoriert
+bg_misc.c
+c:\quake3\code\game\bg_misc.c(866) : warning C4101: 'upperBound' : Unreferenzierte lokale Variable
+q_math.c
+q_shared.c
+ui_atoms.c
+ui_gameinfo.c
+c:\quake3\code\ui\ui_gameinfo.c(162) : error C2065: 'GT_FFA' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_gameinfo.c(165) : error C2065: 'GT_TOURNAMENT' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_gameinfo.c(171) : error C2065: 'GT_1FCTF' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_gameinfo.c(174) : error C2065: 'GT_OBELISK' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_gameinfo.c(177) : error C2065: 'GT_HARVESTER' : nichtdeklarierter Bezeichner
+ui_main.c
+c:\quake3\code\ui\ui_main.c(1009) : error C2065: 'GT_OBELISK' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_main.c(1011) : error C2065: 'GT_HARVESTER' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_main.c(1277) : error C2065: 'WP_MACHINEGUN' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_main.c(2118) : error C2065: 'GT_FFA' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_main.c(2310) : error C2065: 'GT_TOURNAMENT' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_main.c(3498) : error C2065: 'GT_SINGLE_PLAYER' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_main.c(4741) : warning C4035: 'UI_OwnerDraw_Width' : Kein Rueckgabewert
+ui_players.c
+c:\quake3\code\ui\ui_players.c(63) : error C2065: 'WP_MACHINEGUN' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_players.c(71) : error C2065: 'WP_GAUNTLET' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_players.c(84) : error C2051: case-Ausdruck ist keine Konstante
+c:\quake3\code\ui\ui_players.c(88) : error C2051: case-Ausdruck ist keine Konstante
+c:\quake3\code\ui\ui_players.c(104) : error C2065: 'WP_LIGHTNING' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_players.c(104) : error C2051: case-Ausdruck ist keine Konstante
+c:\quake3\code\ui\ui_players.c(108) : error C2065: 'WP_RAILGUN' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_players.c(108) : error C2051: case-Ausdruck ist keine Konstante
+c:\quake3\code\ui\ui_players.c(112) : error C2065: 'WP_PLASMAGUN' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_players.c(112) : error C2051: case-Ausdruck ist keine Konstante
+c:\quake3\code\ui\ui_players.c(120) : error C2065: 'WP_GRAPPLING_HOOK' : nichtdeklarierter Bezeichner
+c:\quake3\code\ui\ui_players.c(120) : error C2051: case-Ausdruck ist keine Konstante
+ui_shared.c
+ui_syscalls.c
+ui_util.c
+Fehler beim Ausführen von cl.exe.
+
+
+
+uix86.dll - 23 Fehler, 2 Warnung(en)

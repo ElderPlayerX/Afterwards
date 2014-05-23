@@ -1,0 +1,56 @@
+--------------------Konfiguration: cgame - Win32 Release--------------------
+Begining build with project "c:\Quake3\code\cgame\cgame.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-Bit C/C++-Compiler für 80x86" with flags "/nologo /G6 /ML /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/cgame.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /o /win32 "NUL" "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/cgame.bsc" "
+			"COFF-Linker für 80x86" with flags "/nologo /base:"0x30000000" /subsystem:windows /dll /incremental:no /pdb:"Release/cgamex86.pdb" /map:"Release/cgamex86.map" /machine:I386 /def:".\cgame.def" /out:"../Release/cgamex86.dll" /implib:"Release/cgamex86.lib" "
+			"Benutzerdefiniertes Erstellen" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP124.TMP" with contents </nologo /G6 /ML /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/cgame.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"c:\Quake3\code\cgame\cg_main.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP124.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP0125.TMP" with contents </nologo /base:"0x30000000" /subsystem:windows /dll /incremental:no /pdb:"Release/cgamex86.pdb" /map:"Release/cgamex86.map" /machine:I386 /def:".\cgame.def" /out:"../Release/cgamex86.dll" /implib:"Release/cgamex86.lib" 
+.\Release\bg_misc.obj
+.\Release\bg_pmove.obj
+.\Release\bg_slidemove.obj
+.\Release\cg_atmospheric.obj
+.\Release\cg_awmenu.obj
+.\Release\cg_consolecmds.obj
+.\Release\cg_draw.obj
+.\Release\cg_drawtools.obj
+.\Release\cg_effects.obj
+.\Release\cg_ents.obj
+.\Release\cg_event.obj
+.\Release\cg_info.obj
+.\Release\cg_localents.obj
+.\Release\cg_main.obj
+.\Release\cg_marks.obj
+.\Release\cg_players.obj
+.\Release\cg_playerstate.obj
+.\Release\cg_predict.obj
+.\Release\cg_scoreboard.obj
+.\Release\cg_servercmds.obj
+.\Release\cg_shoot.obj
+.\Release\cg_snapshot.obj
+.\Release\cg_syscalls.obj
+.\Release\cg_view.obj
+.\Release\cg_weapons.obj
+.\Release\q_math.obj
+.\Release\q_shared.obj
+.\Release\ui_shared.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0125.TMP" 
+Kompilierung läuft...
+cg_main.c
+c:\Quake3\code\cgame\cg_main.c(1161) : warning C4505: 'CG_Cvar_Get' : Nichtreferenzierte lokale Funktion wurde entfernt
+Linker-Vorgang läuft...
+   Bibliothek Release/cgamex86.lib und Objekt Release/cgamex86.exp wird erstellt
+
+
+
+cgamex86.dll - 0 Fehler, 1 Warnung(en)

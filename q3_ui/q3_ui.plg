@@ -1,0 +1,64 @@
+--------------------Konfiguration: q3_ui - Win32 Release--------------------
+Begining build with project "c:\Quake3\code\q3_ui\q3_ui.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-Bit C/C++-Compiler für 80x86" with flags "/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Q3_UI_EXPORTS" /Fp"Release/q3_ui.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/q3_ui.bsc" "
+			"COFF-Linker für 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/uix86.pdb" /machine:I386 /def:".\ui.def" /out:"../Release/uix86.dll" /implib:"Release/uix86.lib" "
+			"Benutzerdefiniertes Erstellen" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSPA223.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/uix86.pdb" /machine:I386 /def:".\ui.def" /out:"../Release/uix86.dll" /implib:"Release/uix86.lib" 
+.\Release\bg_misc.obj
+.\Release\q_math.obj
+.\Release\q_shared.obj
+.\Release\ui_addbots.obj
+.\Release\ui_atoms.obj
+.\Release\ui_cdkey.obj
+.\Release\ui_cinematics.obj
+.\Release\ui_confirm.obj
+.\Release\ui_connect.obj
+.\Release\ui_controls2.obj
+.\Release\ui_credits.obj
+.\Release\ui_demo2.obj
+.\Release\ui_display.obj
+.\Release\ui_gameinfo.obj
+.\Release\ui_ingame.obj
+.\Release\ui_main.obj
+.\Release\ui_menu.obj
+.\Release\ui_mfield.obj
+.\Release\ui_mods.obj
+.\Release\ui_network.obj
+.\Release\ui_options.obj
+.\Release\ui_playermodel.obj
+.\Release\ui_players.obj
+.\Release\ui_playersettings.obj
+.\Release\ui_preferences.obj
+.\Release\ui_qmenu.obj
+.\Release\ui_removebots.obj
+.\Release\ui_serverinfo.obj
+.\Release\ui_servers2.obj
+.\Release\ui_setup.obj
+.\Release\ui_sound.obj
+.\Release\ui_sparena.obj
+.\Release\ui_specifyserver.obj
+.\Release\ui_splevel.obj
+.\Release\ui_sppostgame.obj
+.\Release\ui_spreset.obj
+.\Release\ui_spskill.obj
+.\Release\ui_startserver.obj
+.\Release\ui_syscalls.obj
+.\Release\ui_team.obj
+.\Release\ui_teamorders.obj
+.\Release\ui_video.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPA223.TMP" 
+Linker-Vorgang läuft...
+LINK : fatal error LNK1181: Eingabedatei "odbc32.lib" kann nicht geoeffnet werden
+Fehler beim Ausführen von link.exe.
+
+
+
+uix86.dll - 1 Fehler, 0 Warnung(en)
